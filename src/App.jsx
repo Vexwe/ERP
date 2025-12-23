@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import Login from './components/Login'
-import Home from './pages/home'
+import Home from './pages/home/home'
 import Estoque from './pages/Estoque'
 import Center  from './pages/Center'
 import Forget from './pages/Supportpage/Forget'
