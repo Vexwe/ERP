@@ -1,7 +1,7 @@
 import { useState } from "react";
 import  axios  from "axios"
 import Footer from "../../components/layout/Footer";
-import Header_login from "../../components/Header_login";
+import Header_login from "../../components/layout/Header_login";
 
 export default function Register() {
     const [form, setForm] = useState({

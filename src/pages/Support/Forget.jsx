@@ -1,5 +1,5 @@
-import  Footer  from "../../components/Footer";
-import Header_login from "../../components/Header_login";
+import  Footer  from "../../components/layout/Footer";
+import Header_login from "../../components/layout/Header_login";
 
 
 export default function Forget(){
