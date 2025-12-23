@@ -9,11 +9,9 @@ function Header(){
         <>
         <header className="bg-[#1976d2]">
             <div className="p-3 flex items-center">
-                </button>
         
                 <a href="/home" className="text-center w-full text-white text-2xl">
                     ERP
-                    <p className="text-sm text-white-300 leading-tight" style={{ textShadow: '0 1px 2px rgba(0,0,0,0.25)' }}>
                     <p className="text-sm text-gray-200 leading-tight" 
                         style={{ textShadow: '0 1px 3px rgba(0,0,0,0.6)' }}>
                         Enterprise Resource Planning
