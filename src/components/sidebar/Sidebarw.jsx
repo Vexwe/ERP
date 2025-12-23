@@ -10,6 +10,7 @@ export function Sidebarw({ closeSidebar }) {
       {closeSidebar && (
         <button
           onClick={closeSidebar}
+          className="absolute top-3 right-3 text-white transform transition-transform duration-200 ease-in-out hover:scale-110 active:scale-95 focus:outline-none"
           className="absolute top-3 right-3 text-white transform transition-transform duration-200 ease-in-out hover:scale-130 active:scale-95"
         >
           <CloseIcon />
