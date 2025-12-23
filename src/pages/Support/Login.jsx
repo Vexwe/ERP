@@ -1,5 +1,5 @@
-import Header_login from "./Header_login";
-import Footer from "./Footer"
+import Header_login from "../../components/layout/Header_login";
+import Footer from "../../components/layout/Footer"
 import { Link } from "react-router-dom";
 function Login(){
     return (

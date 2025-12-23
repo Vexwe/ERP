@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
-import Login from './components/Login'
+import Login from './pages/Support/Login'
 import Home from './pages/home/home'
-import Estoque from './pages/Estoque'
-import Center  from './pages/Center'
-import Forget from './pages/Supportpage/Forget'
-import Register from './pages/Supportpage/Register'
+import Estoque from './pages/Estoque/Estoque'
+import Center  from './pages/Center/Center'
+import Forget from './pages/Support/Forget'
+import Register from './pages/Support/Register'
 function App() {
   return (
   <>
