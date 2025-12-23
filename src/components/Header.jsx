@@ -6,14 +6,17 @@ function Header(){
 
     return(
         <>
-        <header className="bg-[#814243]">
+        <header className="bg-[#1976d2]">
             <div className="p-3 flex items-center">
                 <button onClick={()=> setOpen(!open)}> 
-                    <AiOutlineMenu className="mr-4 text-white text-2xl"/>
+                    <AiOutlineMenu className="mr-4 text-white text-2xl transform transition-transform duration-200 ease-in-out hover:scale-110 active:scale-95 focus:outline-none"/>
                 </button>
         
                 <a href="/home" className="text-center w-full text-white text-2xl">
                     ERP
+                    <p className="text-sm text-white-300 leading-tight" style={{ textShadow: '0 1px 2px rgba(0,0,0,0.25)' }}>
+                        Enterprise Resource Planning
+                    </p>
                 </a>
             </div>
         </header>

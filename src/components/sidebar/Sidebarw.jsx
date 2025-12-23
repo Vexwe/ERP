@@ -1,17 +1,18 @@
 import { HiChartPie, HiViewBoards, HiInbox, HiUser, HiShoppingBag, HiArrowSmRight, HiTable } from "react-icons/hi";
 import { BiBuoy } from "react-icons/bi";
+import CloseIcon from '@mui/icons-material/Close';
 
 export function Sidebarw({ closeSidebar }) {
   return (
-    <aside className="w-64 h-full bg-[#814243] shadow-xl border-r border-gray-200 p-4 fixed top-0 left-0 z-50">
+    <aside className="w-64 h-full bg-[#1976d2] shadow-xl border-r border-gray-200 p-4 fixed top-0 left-0 z-50">
 
       {/* Botão fechar */}
       {closeSidebar && (
         <button
           onClick={closeSidebar}
-          className="absolute top-3 right-3 text-white hover:text-black"
+          className="absolute top-3 right-3 text-white transform transition-transform duration-200 ease-in-out hover:scale-110 active:scale-95 focus:outline-none"
         >
-          ✕
+          <CloseIcon />
         </button>
       )}
 
