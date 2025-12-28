@@ -35,7 +35,7 @@ export default function Register() {
             <Header_login />
             
             <main className="flex-grow flex items-center justify-center py-12 px-4">
-                {/* Card de Registro ampliado para comportar mais campos */}
+                {/* Card de Registro */}
                 <div className="w-full max-w-lg bg-white rounded-xl shadow-md overflow-hidden border border-gray-200 p-8">
                     <h2 className="text-2xl font-bold text-center text-gray-800 mb-8">
                         Crie sua conta
