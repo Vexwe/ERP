@@ -2,6 +2,7 @@ import { HiChartPie, HiViewBoards, HiInbox, HiUser, HiShoppingBag } from "react-
 import { BiBuoy } from "react-icons/bi";
 import CloseIcon from '@mui/icons-material/Close';
 import LogoutIcon from '@mui/icons-material/Logout';
+import { Link } from 'react-router-dom'
 
 export function Sidebarw({ closeSidebar }) {
   return (
@@ -30,7 +31,9 @@ export function Sidebarw({ closeSidebar }) {
           <SidebarItem icon={<HiViewBoards />} text="Kanban" />
           <SidebarItem icon={<HiInbox />} text="Inbox" />
           <SidebarItem icon={<HiShoppingBag />} text="Products" />
-          <SidebarItem icon={<LogoutIcon />} text="Logout" />
+          <Link to="/login">
+            <SidebarItem icon={<LogoutIcon />} text="Logout" />
+          </Link>
         </div>
 
         {/* Grupo 2 */}
