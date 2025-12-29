@@ -60,12 +60,17 @@ export default function Register() {
                                 <label htmlFor="sector" className="text-sm font-semibold text-gray-600 mb-1">
                                     Setor
                                 </label>
-                                <input 
+                                <select 
                                     id="sector" name="sector" type="text" required 
                                     onChange={handleChange}
                                     placeholder="Ex: T.I."
                                     className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-900 focus:border-transparent transition"
-                                />
+                                >
+                                    <option value="">Selecione seu setor</option>
+                                    <option value="TI">T.I.</option>
+                                    <option value="RH">RH</option>
+                                    <option value="Financeiro">Financeiro</option>
+                                </select>
                             </div>
                         </div>
 
