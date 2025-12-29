@@ -1,4 +1,4 @@
-import { HiChartPie, HiViewBoards, HiInbox, HiUser, HiShoppingBag } from "react-icons/hi";
+import { HiViewBoards, HiUser } from "react-icons/hi";
 import { BiBuoy } from "react-icons/bi";
 import CloseIcon from '@mui/icons-material/Close';
 import LogoutIcon from '@mui/icons-material/Logout';
@@ -26,21 +26,17 @@ export function Sidebarw({ closeSidebar }) {
 
         {/* Grupo 1 */}
         <div className="mb-4">
-          <SidebarItem icon={<HiUser />} text="Users" />
-          <SidebarItem icon={<HiChartPie />} text="Dashboard" />
+          <SidebarItem icon={<HiUser />} text="Usuarios" />
           <SidebarItem icon={<HiViewBoards />} text="Kanban" />
-          <SidebarItem icon={<HiInbox />} text="Inbox" />
-          <SidebarItem icon={<HiShoppingBag />} text="Products" />
           <Link to="/login">
-            <SidebarItem icon={<LogoutIcon />} text="Logout" />
+            <SidebarItem icon={<LogoutIcon />} text="Sair" />
           </Link>
         </div>
 
         {/* Grupo 2 */}
         <div className="pt-2 border-t border-gray-200">
-          <SidebarItem icon={<HiChartPie />} text="Upgrade to Pro" />
-          <SidebarItem icon={<HiViewBoards />} text="Documentation" />
-          <SidebarItem icon={<BiBuoy />} text="Help" />
+          <SidebarItem icon={<HiViewBoards />} text="Documentação" />
+          <SidebarItem icon={<BiBuoy />} text="Ajuda" />
         </div>
 
       </nav>
