@@ -13,7 +13,7 @@ function Header(){
                     <AiOutlineMenu className="mr-4 text-white text-2xl"/>
                 </button>
         
-                <a href="/home" className="text-center w-full text-white text-2xl">
+                <a href="/" className="text-center w-full text-white text-2xl">
                     ERP
                     <p className="text-sm text-gray-200 leading-tight" 
                         style={{ textShadow: '0 1px 3px rgba(0,0,0,0.6)' }}>

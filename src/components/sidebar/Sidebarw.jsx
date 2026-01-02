@@ -27,7 +27,9 @@ export function Sidebarw({ closeSidebar }) {
         {/* Grupo 1 */}
         <div className="mb-4">
           <SidebarItem icon={<HiUser />} text="Usuarios" />
-          <SidebarItem icon={<HiViewBoards />} text="Kanban" />
+          <Link to='/kanban'>
+            <SidebarItem icon={<HiViewBoards />} text="Kanban" />
+          </Link>
           <Link to="/login">
             <SidebarItem icon={<LogoutIcon />} text="Sair" />
           </Link>
