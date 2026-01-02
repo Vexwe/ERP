@@ -5,6 +5,7 @@ import Estoque from './pages/Estoque/Estoque'
 import Center  from './pages/Center/Center'
 import Forget from './pages/Support/Forget'
 import Register from './pages/Support/Register'
+import KanbanBoard from './components/KanBan/KanbanBoard'
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
   <Route path='/estoque' element={<Estoque/>}/>
   <Route path='/center' element={<Center/>}/>
   <Route path='/forget' element={<Forget/>}/>
-  <Route path='/register' element={<Register/>}/>    
+  <Route path='/register' element={<Register/>}/> 
+  <Route path='/kanban' element={<KanbanBoard/>}/> 
   </Routes>  
   </Router>
   </>
