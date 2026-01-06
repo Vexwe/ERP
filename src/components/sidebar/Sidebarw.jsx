@@ -2,6 +2,7 @@ import { HiViewBoards, HiUser } from "react-icons/hi";
 import { BiBuoy } from "react-icons/bi";
 import CloseIcon from '@mui/icons-material/Close';
 import LogoutIcon from '@mui/icons-material/Logout';
+import HomeIcon from '@mui/icons-material/Home';
 import { Link } from 'react-router-dom'
 
 export function Sidebarw({ closeSidebar }) {
@@ -26,16 +27,23 @@ export function Sidebarw({ closeSidebar }) {
 
         {/* Grupo 1 */}
         <div className="mb-4">
+          {/*Rota home*/}
+          <Link to='/'>
+            <SidebarItem icon={<HomeIcon />} text="Home" />
+          </Link>
+          {/*Ainda sem rota*/}
           <SidebarItem icon={<HiUser />} text="Usuarios" />
+          {/*Kanban*/}
           <Link to='/kanban'>
             <SidebarItem icon={<HiViewBoards />} text="Kanban" />
           </Link>
+          {/*Login*/}
           <Link to="/login">
             <SidebarItem icon={<LogoutIcon />} text="Sair" />
           </Link>
         </div>
 
-        {/* Grupo 2 */}
+        {/* Grupo 2 ainda sem rota*/}
         <div className="pt-2 border-t border-gray-200">
           <SidebarItem icon={<HiViewBoards />} text="Documentação" />
           <SidebarItem icon={<BiBuoy />} text="Ajuda" />
